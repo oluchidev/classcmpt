@@ -174,7 +174,6 @@ body {
   font-weight: 700;
 }
 
-<<<<<<< HEAD
 .read::after
 {
   content:"";
@@ -192,24 +191,6 @@ body {
 
 .sub{
   margin-top: 100px;
-=======
-.read::after {
-  content: "";
-  position: absolute;
-  top: 130px;
-  left: 115px;
-  border-width: 6px;
-  border-style: solid;
-  border-top-color: black;
-  border-right-color: black;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  transform: rotate(45deg);
-}
-
-.sub {
-  margin-top: 99px;
->>>>>>> downpart
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 700;
