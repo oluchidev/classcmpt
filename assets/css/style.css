@@ -13,7 +13,7 @@ body {
 
 .yell-cont {
   padding: 47% 10%;
-  background-color: rgb(255, 191, 14);
+  background-color:rgb(247, 158, 0);
 }
 
 .img-cont {
@@ -28,8 +28,6 @@ body {
   left: 170px;
 }
 
-
-
 .pix {
   width: 400px;
   height: 450px;
@@ -38,33 +36,108 @@ body {
   left: 150px;
 }
 
-.l-cont{
-display: flex;
+.fs-cont {
+  position: relative;
 }
 
-.l-cont1{
-background-color: black;
+.first {
+  width: 250px;
+  height: 48px;
+  position: absolute;
+  top: 450px;
+  left: 150px;
+  background-color: black;
 }
 
-.l-cont2{
-background-color: rgb(255, 191, 14);
+.flex{
+  display: flex;
+}
+
+.one{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: rgb(247, 158, 0);
+  font-weight: 500;
+}
+
+.two{
+  position: absolute;
+  top: 15px;
+  left: 220px;
+  color: rgb(233, 169, 58);
+}
+
+.center{
+  width: 82px;
+  height: 2px;
+  position: absolute;
+  top: 22px;
+  left: 45px;
+  background-color: rgb(247, 158, 0);
+}
+
+.center2{
+  width: 82px;
+  height: 2px;
+  position: absolute;
+  top: 22px;
+  left: 127px;
+  background-color: rgb(46, 46, 46);
+}
+
+.sec {
+  width: 150px;
+  height: 48px;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+  background-color: rgb(247, 158, 0);
+}
+
+.sec::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-width:6px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-right-color:transparent;
+  border-bottom-color:black;
+  border-left-color:black;
+  transform: rotate(45deg);
+}
+
+.sec::after{
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-width:6px;
+  border-style: solid;
+  border-top-color:black;
+  border-right-color: black;
+  border-bottom-color:transparent;
+  border-left-color:transparent;
+  transform: rotate(45deg);
 }
 
 .links {
-    display: flex;
-    direction: rtl;
-  } 
-
-.fp1 {
-    margin: 0px 80px;
+  display: flex;
+  direction: rtl;
 }
 
-.fp0{
-  box-shadow: 3px 8px rgb(255, 191, 14);
+.fp1 {
   margin: 0px 80px;
 }
 
-.fas{
+.fp0 {
+  box-shadow: 3px 8px rgb(247, 158, 0);
+  margin: 0px 80px;
+}
+
+.fas {
   font-size: 20px;
   color: white;
   padding: 8px;
@@ -74,14 +147,13 @@ background-color: rgb(255, 191, 14);
   background-color: rgb(109, 106, 106);
 }
 
-.parag2{
+.parag2 {
   position: absolute;
   left: 650px;
   top: 200px;
-
 }
 
-.parag3{
+.parag3 {
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
@@ -90,53 +162,55 @@ background-color: rgb(255, 191, 14);
   top: 100px;
 }
 
-.cont1{
+.cont1 {
   color: rgb(73, 71, 71);
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
 }
 
-.read{
+.read {
   font-size: 18px;
   font-weight: 700;
 }
 
-.read::after
-{
-  content:"";
- position: absolute;
- top: 92px;
- left: 115px;
- border-width: 6px;
- border-style: solid;
- border-top-color: black;
- border-right-color: black;
- border-bottom-color:transparent;
- border-left-color:transparent ;
-  transform:rotate(45deg);
+.read::after {
+  content: "";
+  position: absolute;
+  top: 130px;
+  left: 115px;
+  border-width: 6px;
+  border-style: solid;
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
 }
 
-.sub{
-  margin-top: 100px;
+.sub {
+  margin-top: 99px;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 700;
-
 }
 
-.put{
-padding: 15px;
-border: none;
-border-color: white;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.put {
+  padding: 17px;
+  border: none;
+  border-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.butt{
+.butt {
   position: absolute;
   border-radius: 0px;
   border: none;
-  padding: 15px;
-  background-color: rgb(255, 191, 14);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 17px;
+  background-color: rgb(247, 158, 0);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
